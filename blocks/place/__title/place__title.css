@@ -1,21 +1,19 @@
 .place__title {
+    margin: 0 0 32px;
+    padding: 0 5%;
+    max-width: max(288px, 100%);
     font-weight: 900;
+    font-size: clamp(2em, (1rem + 5vw), 2.625em);
+    line-height: 1.09;
 }
 
-@media screen and (min-width:320px) {
-    .place__title {
-        margin: 0 0 32px;
-        max-width: max(288px, 100%);
-        font-size: clamp(32px, (1rem + 5vw), 42px);
-        line-height: 1.09;
-    }
-}
 
 @media screen and (min-width:768px) {
     .place__title {
         margin: 0 0 48px;
+        padding: 0;
         max-width: max(340px, 100%);
-        font-size: clamp(42px, (1rem + 5vw), 72px);
+        font-size: clamp(2.625em, (0.001em + 5.5vw), 4.5em);
         line-height: 1.1;
     }
 }
